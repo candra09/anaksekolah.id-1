@@ -1,0 +1,19 @@
+.bg-blue{
+    background-color: #3EAFEF;
+}
+
+.bg-darkblue{
+    background-color: blue;
+}
+
+#icon{
+    width: 100%;   
+}
+
+.form input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: solid white;
+    margin: 1em auto ;
+}
