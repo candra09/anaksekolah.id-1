@@ -5,3 +5,15 @@
   font-size: 20px;
   margin: 25px auto;
 }
+
+.border-25{
+  border-radius: 25px;
+}
+
+.bg-blue{
+  background-color: #3EAFEF;
+}
+
+.bg-dblue{
+  background-color: darkblue
+}

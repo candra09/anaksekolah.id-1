@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/Register.css';
-import Icon from '../assets/img/register.png';
+import '../../styles/Register.css';
+import Icon from '../../assets/img/register.png';
 
 export default function Register() {
     return (
@@ -14,11 +14,16 @@ export default function Register() {
                         <input className='row' type="text" name="telp" id="" placeholder=' Nomor Telepon ' />
                         <input className='row' type="password" name="nama" id="" placeholder=' Password ' />
                         <input className='row' type="password" name="nama" id="" placeholder=' Confirm Password ' />
-                        <input className='row' type="text" name="nama" id="" placeholder=' Status ' />
-                    </form>
+                        <div className="row px-2 reg">
+                            <select class="form-control form-control-mg" name="Status" style={{height: 35}}>
+                                <option>Status</option>
+                                <option>Guru</option>
+                                <option>Murid</option>
+                            </select>
+                        </div>                    </form>
                     <button className='btn btn-md bg-primary w-25 p-2'>Daftar</button>
                 </div>
-                <div className="col-6"> 
+                <div className="col-6">
                     <img src={Icon} alt="" id='icon' />
                 </div>
             </div>

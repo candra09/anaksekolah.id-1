@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Home.css";
-import prom from "../assets/videos/prom.mp4";
-import background from "../assets/img/back.png";
+import "../../styles/Home.css";
+import prom from "../../assets/videos/prom.mp4";
+import background from "../../assets/img/back.png";
 
 export default function Home() {
   return (
@@ -68,7 +68,6 @@ export default function Home() {
                 href=""
                 className="btn btn-sm bg-warning rounded-pill fw-bold w-50 my-3 p-2"
               >
-                {" "}
                 Langganan
               </a>
             </div>
@@ -96,7 +95,6 @@ export default function Home() {
                 href=""
                 className="btn btn-sm bg-warning rounded-pill fw-bold w-50 my-3 p-2"
               >
-                {" "}
                 Langganan
               </a>
             </div>
@@ -147,16 +145,13 @@ export default function Home() {
 
       <div className="container my-5">
         <div class="d-flex align-items-start mb-3">
-          <div class="col mx-2" style={{ height: 750 }}>
-            <div style={{ height: 225 }}>
+          <div class="col mx-2">
+            <div class="h-25">
               <h1 class="fw-bolder py-5 px-3">
                 Apa saja yang bisa kamu dapatkan dalam AnakSekolah.id?
               </h1>
             </div>
-            <div
-              class="card bg-primary text-white box-border py-2"
-              style={{ height: 525 }}
-            >
+            <div class="card bg-primary text-white box-border py-4 h-100">
               <div class="card-body rounded-end">
                 <h4 class="card-title fw-bolder">Konten Belajar Berkualitas</h4>
                 <p class="card-text">
@@ -193,8 +188,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="col mx-2" style={{ height: 750 }}>
-            <div class="box-border" style={{ height: 350 }}>
+          <div class="col mx-2">
+            <div class="box-border h-50 my-2">
               <h4 className="my-2">
                 Ratusan ribu soal latihan <br /> untuk persiapan ujian
               </h4>
@@ -206,8 +201,7 @@ export default function Home() {
               </p>
               <img className="w-100" src="./img/sec01.png" alt="section" />
             </div>
-            <div style={{ height: 50 }}></div>
-            <div class="card-body box-border" style={{ height: 350 }}>
+            <div class="card-body box-border h-50 my-2">
               <img
                 className="w-100"
                 src="./img/footersec02.png"
@@ -224,8 +218,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div class="col mx-2" style={{ height: 750 }}>
-            <div class="box-border" style={{ height: 350 }}>
+          <div class="col mx-2">
+          <div class="box-border h-50 my-2">
               <h4 className="my-2">
                 Ratusan ribu soal latihan <br /> untuk persiapan ujian
               </h4>
@@ -237,8 +231,7 @@ export default function Home() {
               </p>
               <img className="w-100" src="./img/sec03.png" alt="section" />
             </div>
-            <div style={{ height: 50 }}></div>
-            <div class="card-body box-border" style={{ height: 350 }}>
+            <div class="card-body box-border h-50 my-2">
               <img className="w-100" src="./img/sec04.png" alt="section" />
               <h4 className="my-4">
                 Ratusan ribu soal latihan <br /> untuk persiapan ujian

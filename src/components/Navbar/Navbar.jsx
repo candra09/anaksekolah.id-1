@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import logo from '../assets/logo.png';
-import '../styles/Navbar.css';
+import logo from '../../assets/logo.png';
+import '../../styles/Navbar.css';
 import Login from "./Login";
 
 export default function Navbar() {
