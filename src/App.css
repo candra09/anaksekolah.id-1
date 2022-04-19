@@ -17,3 +17,12 @@
 .bg-dblue{
   background-color: darkblue
 }
+
+.bg-lblue{
+  background-color: #C4E9FE;
+}
+
+.user{
+ width: 64px;
+ height: 64px;
+}

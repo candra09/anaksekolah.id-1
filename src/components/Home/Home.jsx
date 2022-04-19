@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="main">
       <div class="fluid-jumbotron bg-blue p-5" id="jumbotron">
-        <div className="overlay text-dark align-center">
+        <div className="container overlay text-dark align-center">
           <h5 class="display-5 fw-bold mb-0">
             Semua kebutuhan belajar <br />
             ada di AnakSekolah.ID
