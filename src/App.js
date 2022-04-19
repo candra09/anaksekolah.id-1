@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer";
 import RegisterMurid from "./components/Navbar/RegisterMurid";
-import RegisterGuru from "./components/Navbar/RegisterGuru";
 import SD from "./components/Pembelajaran/SD";
 import Silabus from "./components/Silabus/Silabus";
 import Tugas from "./components/Tugas/Tugas";
