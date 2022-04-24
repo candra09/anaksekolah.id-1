@@ -1,31 +1,40 @@
 import React from "react";
-import logo from "../assets/img/promote.png";
+import logo from "../../assets/img/promote.png";
 
-export default function Footer() {
+function Footer() {
+
   return (
     <div>
       <section class="py-20 2xl:py-40 rounded-end">
         <div className="container d-flex flex-nowrap bg-dblue text-white">
-          <div className="col-3 py-3 px-5">
-            <img src={logo} alt="logo" className="" />
-            <h4 className="fs-4 fw-bolder">AnakSekolah.ID</h4>
-            <p className="w-100 text-justify">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              possimus repellendus dolore explicabo voluptatum sit minus
-              molestiae!
-            </p>
-            <a
-              href="#"
-              className="btn btn-light btn-lg text-black fs-2 w-100 my-2 text-lg-start"
-            >
-              <i class="fa fa-google"></i>
-            </a>
-            <a
-              href="#"
-              className="btn btn-light btn-lg text-black fs-2 w-100 my-2 text-lg-start"
-            >
-              <i class="fa fa-apple"></i>
-            </a>
+          <div className="col-3 p-3">
+            <div className="row">
+              <img src={logo} alt="logo" className="sm-6 p-2" />
+            </div>
+            <div className="row">
+              <h4 className="fs-4 fw-bolder">AnakSekolah.ID</h4>
+            </div>
+            <div className="row">
+              <p className="w-100 text-justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                possimus repellendus dolore explicabo voluptatum sit minus
+                molestiae!
+              </p>
+            </div>
+            <div className="row">
+              <a
+                href="#"
+                className="btn btn-light btn-lg text-black fs-2 w-100 my-2 text-lg-start"
+              >
+                <i class="fa fa-google"></i>
+              </a>
+              <a
+                href="#"
+                className="btn btn-light btn-lg text-black fs-2 w-100 my-2 text-lg-start"
+              >
+                <i class="fa fa-apple"></i>
+              </a>
+            </div>
           </div>
           <div className="col-3 p-5">
             <div class="d-flex flex-column my-5 py-1">
@@ -103,3 +112,5 @@ export default function Footer() {
     </div>
   );
 }
+
+export default Footer;

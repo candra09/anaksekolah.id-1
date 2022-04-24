@@ -1,10 +1,11 @@
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import Footer from "./components/Footer";
 import RegisterMurid from "./components/Navbar/RegisterMurid";
+import RegisterGuru from "./components/Navbar/RegisterGuru";
 import SD from "./components/Pembelajaran/SD";
 import Silabus from "./components/Silabus/Silabus";
 import Tugas from "./components/Tugas/Tugas";
@@ -22,7 +23,8 @@ function App() {
           <Switch>
             <div className="app-content">
               <Route path="/" exact component={Home} />
-              <Route path="/register" exact component={RegisterMurid} />
+              <Route path="/register_murid" exact component={RegisterMurid} />
+              <Route path="/register_guru" exact component={RegisterGuru} />
               <Route path="/SD" exact component={SD} />
               <Route path="/silabus" exact component={Silabus} />
               <Route path="/tugas" exact component={Tugas} />

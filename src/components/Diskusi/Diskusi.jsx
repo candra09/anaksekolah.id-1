@@ -46,12 +46,12 @@ export default function Silabus() {
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../Soal">
+                                    <a class="nav-link" href="/Soal">
                                         Soal
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="../Diskusi">
+                                    <a class="nav-link active" href="/Diskusi">
                                         Diskusi
                                     </a>
                                 </li>

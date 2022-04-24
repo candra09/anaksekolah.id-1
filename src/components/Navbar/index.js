@@ -1,17 +1,15 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import logo from '../../assets/logo.png';
 import '../../styles/Navbar.css';
 import Login from "./Login";
 
-export default function Navbar() {
-
-  const [isOpen, setIsOpen] = useState(false);
+function Navbar() {
 
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 shadow-sm">
         <div class="container">
-          <img src={logo} alt="anaksekolah.id" />
+          <a href="/"><img src={logo} alt="anaksekolah.id" /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -52,11 +50,10 @@ export default function Navbar() {
               </li>
             </ul>
             <div className="buttons d-flex">
-              <a href="" className="btn ms-2" onClick={() => setIsOpen(true)}>
-                <i class="fa fa-sign-in me-1"></i> Login 
+              <a href="" className="btn ms-2">
+                <i class="fa fa-sign-in me-1"></i> Login
               </a>
-              {isOpen && <Login setIsOpen={setIsOpen} />}
-              <a href="" className="btn btn-primary ms-2">
+              <a href="/regisrter_murid" className="btn btn-primary ms-2">
                 <i class="fa fa-user-plus me-1"></i> Register
               </a>
             </div>
@@ -68,3 +65,6 @@ export default function Navbar() {
     </div>
   );
 }
+
+export default Navbar;
+

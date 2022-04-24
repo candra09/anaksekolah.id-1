@@ -1,9 +1,7 @@
 import React from "react";
-import "../../styles/Home.css";
 import prom from "../../assets/videos/prom.mp4";
-import background from "../../assets/img/back.png";
 
-export default function Home() {
+export default function index() {
   return (
     <div className="main">
       <div class="fluid-jumbotron bg-blue p-5" id="jumbotron">
@@ -23,108 +21,125 @@ export default function Home() {
       </div>
 
       <div className="container my-3 bg-blue border-25">
-        <div class="d-flex flex-row mx-4 py-3 text-center">
-          <h3 className="my-3 text-white">Pilih Jenjang Pendidikan : </h3>
-          <a
-            href=""
-            className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
-          >
-            SD
-          </a>
-          <a
-            href=""
-            className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
-          >
-            SMP
-          </a>
-          <a
-            href=""
-            className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
-          >
-            SMA
-          </a>
+        <div className="d-flex flex-row mx-4 py-3 text-center">
+          <div className="col-md-4">
+            <h4 className="m-4 text-white">Pilih Jenjang Pendidikan </h4>
+          </div>
+          <div className="col-md-2">
+            <a
+              href="/SD"
+              className="btn btn-md m-4 w-75 rounded-pill bg-primary text-white"
+            >
+              SD
+            </a>
+          </div>
+          <div className="col-md-2">
+            <a className="btn btn-md m-4 w-75 rounded-pill bg-primary text-white">
+              SMP
+            </a>
+          </div>
+          <div className="col-md-2">
+            <a className="btn btn-md m-4 w-75 rounded-pill bg-primary text-white">
+              SMA
+            </a>
+          </div>
+          <div className="col-md-2">
+            <a className="btn btn-md m-4 w-75 rounded-pill bg-primary text-white">
+              SMK
+            </a>
+          </div>
         </div>
         <div class="card-group mx-2 my-3 text-white">
           <div className="card mx-3 mb-5 bg-info">
-            <div class="card-body bg-image" id="SD">
-              <div class="d-flex justify-content-end">
-                <a
-                  href=""
-                  className="btn btn-sm bg-light m-3 rounded-pill w-25 fw-bold"
-                >
+            <div class="card-body bg-image">
+              <div class="row d-flex justify-content-end">
+                <a className="btn btn-sm bg-light m-3 rounded-pill w-50 fw-bold">
                   Promo
                 </a>
               </div>
-              <h5 className="fst-italic mx-3">
-                Paket Pembelajaran <br />
-                Kelas Sekolah Dasar
-              </h5>
+              <div className="row">
+                <h5 className="fst-italic mx-3">
+                  Paket Pembelajaran <br />
+                  Kelas Sekolah Dasar
+                </h5>
+              </div>
             </div>
             <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fst-italic fw-bolder m-3 py-2 flex-grow-1">
-                Rp 1.000.000
-              </h6>
-              <a
-                href=""
-                className="btn btn-sm bg-warning rounded-pill fw-bold w-50 my-3 p-2"
-              >
-                Langganan
-              </a>
+              <div className="col-md">
+                <h6 className="fst-italic fw-bolder my-4 mx-2">
+                  Rp 1.000.000
+                </h6>
+              </div>
+              <div className="col-md">
+                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">Langganan</a>
+              </div>
             </div>
           </div>
           <div className="card mx-3 mb-5 bg-info">
-            <div class="card-body bg-image" id="SMP">
-              <div class="d-flex justify-content-end">
-                <a
-                  href=""
-                  className="btn btn-sm bg-light m-3 rounded-pill w-25 fw-bold"
-                >
+            <div class="card-body bg-image">
+              <div class="row d-flex justify-content-end">
+                <a className="btn btn-sm bg-light m-3 rounded-pill w-50 fw-bold">
                   Promo
                 </a>
               </div>
-              <h5 className="fst-italic mx-3">
-                Paket Pembelajaran Kelas
-                <br /> Sekolah Menengah Pertama
-              </h5>
+              <div className="row">
+                <h5 className="fst-italic mx-3">
+                  Paket Pembelajaran <br />
+                  Kelas Sekolah Menengah Pertama
+                </h5>
+              </div>
             </div>
             <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fst-italic fw-bolder m-3 py-2 flex-grow-1">
-                Rp 1.000.000
-              </h6>
-              <a
-                href=""
-                className="btn btn-sm bg-warning rounded-pill fw-bold w-50 my-3 p-2"
-              >
-                Langganan
-              </a>
+              <div className="col-md">
+                <h6 className="fst-italic fw-bolder my-4 mx-2">
+                  Rp 1.000.000
+                </h6>
+              </div>
+              <div className="col-md">
+                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">Langganan</a>
+              </div>
             </div>
           </div>
           <div className="card mx-3 mb-5 bg-info">
-            <div class="card-body bg-image" id="SMA">
-              <div class="d-flex justify-content-end">
-                <a
-                  href=""
-                  className="btn btn-sm bg-light m-3 rounded-pill w-25 fw-bold"
-                >
-                  Promo
-                </a>
+            <div class="card-body bg-image">
+              <div class="row d-flex justify-content-end">
+                <a className="btn btn-sm bg-light m-3 rounded-pill w-50 fw-bold">Promo</a>
               </div>
-              <h5 className="fst-italic mx-3">
-                Paket Pembelajaran Kelas
-                <br /> Sekolah Menengah Atas
-              </h5>
+              <div className="row">
+                <h5 className="fst-italic mx-3">
+                  Paket Pembelajaran <br />
+                  Kelas Sekolah Menengah <br /> Atas
+                </h5>
+              </div>
             </div>
             <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fst-italic fw-bolder m-3 py-2 flex-grow-1">
-                Rp 1.000.000
-              </h6>
-              <a
-                href=""
-                className="btn btn-sm bg-warning rounded-pill fw-bold w-50 my-3 p-2"
-              >
-                {" "}
-                Langganan
-              </a>
+              <div className="col-md">
+                <h6 className="fst-italic fw-bolder my-4 mx-2">Rp 1.000.000</h6>
+              </div>
+              <div className="col-md">
+                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">Langganan</a>
+              </div>
+            </div>
+          </div>
+          <div className="card mx-3 mb-5 bg-info">
+            <div class="card-body bg-image">
+              <div class="row d-flex justify-content-end">
+                <a className="btn btn-sm bg-light m-3 rounded-pill w-50 fw-bold">Promo</a>
+              </div>
+              <div className="row">
+                <h5 className="fst-italic mx-3">
+                  Paket Pembelajaran <br />
+                  Kelas Sekolah Menengah <br /> Kejuruan
+                </h5>
+              </div>
+            </div>
+            <div className="card-footer bg-light text-dark d-flex">
+              <div className="col-md">
+                <h6 className="fst-italic fw-bolder my-4 mx-2">Rp 1.000.000</h6>
+              </div>
+              <div className="col-md">
+                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">Langganan</a>
+              </div>
             </div>
           </div>
         </div>
@@ -137,9 +152,7 @@ export default function Home() {
           Kejar cita-citamu bersama AnakSekolah.ID
         </h2>
         <div class="container">
-          <video class="w-100" controls src={prom}>
-            {" "}
-          </video>
+          <video class="w-100" controls src={prom}></video>
         </div>
       </div>
 
@@ -219,7 +232,7 @@ export default function Home() {
             </div>
           </div>
           <div class="col mx-2">
-          <div class="box-border h-50 my-2">
+            <div class="box-border h-50 my-2">
               <h4 className="my-2">
                 Ratusan ribu soal latihan <br /> untuk persiapan ujian
               </h4>
@@ -298,8 +311,7 @@ export default function Home() {
         </h3>
         <div class="card-group mx-2 my-3 text-white">
           <div className="card mx-3 mb-5">
-            <div class="card-body bg-image" id="T1">
-            </div>
+            <div class="card-body bg-image" id="T1"></div>
             <div className="card-footer bg-light text-dark">
               <p className="text-center fst-italic fw-bolder">
                 Nama Guru
@@ -353,7 +365,7 @@ export default function Home() {
         <h3 className="fw-bolder p-3 text-center">
           Paling baru di AnakSekolah.id
         </h3>
-        <div class="d-flex align-items-start mb-3" style={{ height: 600 }}>
+        <div class="d-flex align-items-start mb-3">
           <div className="col m-4 bg-image border-25" id="page-1"></div>
           <div className="col">
             <div className="col mx-4 mt-4 bg-image border-25" id="page-2"></div>
@@ -365,7 +377,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
