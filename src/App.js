@@ -1,10 +1,10 @@
-import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import Footer from "./components/Footer";
-import RegisterMurid from "./components/Navbar/RegisterMurid";
+import Footer from "./components/Footer/Footer";
+import RegisterMurid from "./components/Register/RegisterMurid";
 import SD from "./components/Pembelajaran/SD";
 import Silabus from "./components/Silabus/Silabus";
 import Tugas from "./components/Tugas/Tugas";

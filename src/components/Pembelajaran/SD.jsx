@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/SD.css";
+import K1 from "./assets/K1.png";
 
 export default function SD() {
   return (
@@ -16,7 +16,7 @@ export default function SD() {
         </div>
       </div>
 
-      <div className="container my-3 bg-blue border-25">
+      <div className="container my-3 bg-blue border-25 p-3">
         <div class="d-flex flex-row mx-4 py-3 text-center">
           <h3 className="my-3 text-white">Pilih Jenjang Pendidikan : </h3>
           <div className="col-md mx-3">
@@ -52,58 +52,81 @@ export default function SD() {
             </a>
           </div>
         </div>
-        <div class="card-group mx-2 my-3 text-white">
-          <div className="card mx-3 mb-5 bg-info bg-img border-25" id="Kelas1">
-            <div class="card-body bg-image"></div>
-            <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fw-bolder m-3 py-2 flex-grow-1 text-center fs-3">
-                Pembelajaran Kelas 1
-              </h6>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+          <div class="col height">
+            <div class="card">
+              <img src={K1} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Pembelajaran Kelas 1</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
             </div>
           </div>
-          <div className="card mx-3 mb-5 bg-info bg-img" id="Kelas2">
-            <div class="card-body bg-image"></div>
-            <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fw-bolder m-3 py-2 flex-grow-1 text-center fs-3">
-                Pembelajaran Kelas 2
-              </h6>
+          <div class="col height">
+            <div class="card">
+              <img src={K1} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Pembelajaran Kelas 2</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
             </div>
           </div>
-          <div className="card mx-3 mb-5 bg-info bg-img" id="Kelas3">
-            <div class="card-body bg-image"></div>
-            <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fw-bolder m-3 py-2 flex-grow-1 text-center fs-3">
-                Pembelajaran Kelas 3
-              </h6>
-            </div>
-          </div>
-        </div>
-        <div class="card-group mx-2 my-3 text-white">
-          <div className="card mx-3 mb-5 bg-info bg-img" id="Kelas4">
-            <div class="card-body bg-image"></div>
-            <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fw-bolder m-3 py-2 flex-grow-1 text-center fs-3">
-                Pembelajaran Kelas 4
-              </h6>
-            </div>
-          </div>
-          <div className="card mx-3 mb-5 bg-info bg-img" id="Kelas5">
-            <div class="card-body bg-image"></div>
-            <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fw-bolder m-3 py-2 flex-grow-1 text-center fs-3">
-                Pembelajaran Kelas 5
-              </h6>
-            </div>
-          </div>
-          <div className="card mx-3 mb-5 bg-info bg-img" id="Kelas6">
-            <div class="card-body bg-image"></div>
-            <div className="card-footer bg-light text-dark d-flex">
-              <h6 className="fw-bolder m-3 py-2 flex-grow-1 text-center fs-3">
-                Pembelajaran Kelas 6
-              </h6>
+          <div class="col height">
+            <div class="card height">
+              <img src={K1} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Pembelajaran Kelas 3</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
             </div>
           </div>
         </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 my-3 text-center">
+          <div class="col height">
+            <div class="card">
+              <img src={K1} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Pembelajaran Kelas 4</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col height">
+            <div class="card">
+              <img src={K1} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Pembelajaran Kelas 5</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col height">
+            <div class="card height">
+              <img src={K1} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Pembelajaran Kelas 6</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
     </div>
   );

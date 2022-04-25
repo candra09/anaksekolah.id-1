@@ -23,26 +23,40 @@ export default function Home() {
       </div>
 
       <div className="container my-3 bg-blue border-25">
-        <div class="d-flex flex-row mx-4 py-3 text-center">
+      <div class="d-flex flex-row mx-4 py-3 text-center">
           <h3 className="my-3 text-white">Pilih Jenjang Pendidikan : </h3>
-          <a
-            href=""
-            className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
-          >
-            SD
-          </a>
-          <a
-            href=""
-            className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
-          >
-            SMP
-          </a>
-          <a
-            href=""
-            className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
-          >
-            SMA
-          </a>
+          <div className="col-md mx-3">
+            <a
+              href="../SD"
+              className="btn btn-primary w-100 m-2 px-2 fs-4 rounded-pill fw-bold"
+            >
+              SD
+            </a>
+          </div>
+          <div className="col-md mx-3">
+            <a
+              href=""
+              className="btn btn-primary w-100 m-2 px-2 fs-4 rounded-pill fw-bold"
+            >
+              SMP
+            </a>
+          </div>
+          <div className="col-md mx-3">
+            <a
+              href=""
+              className="btn btn-primary w-100 m-2 px-2 fs-4 rounded-pill fw-bold"
+            >
+              SMA
+            </a>
+          </div>
+          <div className="col-md mx-3">
+            <a
+              href=""
+              className="btn btn-primary w-100 m-2 px-2 fs-4 rounded-pill fw-bold"
+            >
+              SMK
+            </a>
+          </div>
         </div>
         <div class="card-group mx-2 my-3 text-white">
           <div className="card mx-3 mb-5 bg-info">

@@ -1,70 +1,100 @@
-import React, {useState} from "react";
-import logo from '../../assets/logo.png';
-import '../../styles/Navbar.css';
-import Login from "./Login";
+import React, { useState } from 'react';
+import logo from "../Footer/assets/logo.png";
+import "./style.css";
+import {
+  MDBContainer,
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBBtn,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
+  MDBDropdownLink,
+  MDBCollapse,
+  MDBModal,
+  MDBModalDialog,
+  MDBModalContent,
+  MDBModalHeader,
+  MDBModalTitle,
+  MDBModalBody,
+  MDBModalFooter,
+} from 'mdb-react-ui-kit';
 
 export default function Navbar() {
-
-  const [isOpen, setIsOpen] = useState(false);
+  const [showBasic, setShowBasic] = useState(false);
+  const [basicModal, setBasicModal] = useState(false);
+  const toggleShow = () => setBasicModal(!basicModal);
 
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 shadow-sm">
-        <div class="container">
-          <img src={logo} alt="anaksekolah.id" />
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
-                  Kelas
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Ekskul
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Promo
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Event
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Testimoni
-                </a>
-              </li>
-            </ul>
-            <div className="buttons d-flex">
-              <a href="" className="btn ms-2" onClick={() => setIsOpen(true)}>
-                <i class="fa fa-sign-in me-1"></i> Login 
-              </a>
-              {isOpen && <Login setIsOpen={setIsOpen} />}
-              <a href="" className="btn btn-primary ms-2">
-                <i class="fa fa-user-plus me-1"></i> Register
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <MDBNavbar expand='lg' light bgColor='light'>
+      <MDBContainer>
+        <MDBNavbarBrand href='/'>
+          <img src={logo} className="py-2" />
+        </MDBNavbarBrand>
 
+        <MDBNavbarToggler
+          aria-controls='navbarSupportedContent'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+          onClick={() => setShowBasic(!showBasic)}
+        >
+          <MDBIcon icon='bars' fas />
+        </MDBNavbarToggler>
 
-    </div>
+        <MDBCollapse navbar show={showBasic} center>
+          <MDBNavbarNav className='mr-auto mb-lg-0'>
+            <MDBNavbarItem>
+              <MDBNavbarLink className='text' href='/SD'>
+                Kelas
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'>Ekskul</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'>Promo</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'>Event</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'>Testimoni</MDBNavbarLink>
+            </MDBNavbarItem>
+          </MDBNavbarNav>
+          <MDBBtn outline onClick={toggleShow}>Sign&nbsp;in</MDBBtn>
+          <MDBModal show={basicModal} setShow={setBasicModal} tabIndex='-1'>
+            <MDBModalDialog>
+              <MDBModalContent className='bg-info'>
+                <MDBModalHeader>
+                  <MDBBtn className='btn-close' color='none' onClick={toggleShow}></MDBBtn>
+                </MDBModalHeader>
+                <MDBModalBody>
+                  <img src={logo} />
+                  <h3>Login</h3>
+                  <form action="">
+                    <input type="text" name="" placeholder='email/username' />
+                    <input type="password" name="" placeholder='password' />
+                    <h6>Belum mempunyai akun? <a href="/register">Daftar akun</a> atau
+                      <a href="#">Lupa Password?</a>
+                    </h6>
+                    <button className='btn btn-primary'>Login</button>
+                    <button className='btn btn-danger'>Login dengan Google</button>
+                  </form>
+                </MDBModalBody>
+              </MDBModalContent>
+            </MDBModalDialog>
+          </MDBModal>
+
+          <MDBBtn tag='a' href='/register' className='mx-2'>Sign&nbsp;up</MDBBtn>
+        </MDBCollapse>
+      </MDBContainer>
+    </MDBNavbar>
+
   );
 }

@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Plus+Jakarta+Sans&family=Roboto&display=swap');
+
+*{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
 
 /* Navbar */
 .navbar-nav a{
