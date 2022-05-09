@@ -97,7 +97,7 @@ export default function SD() {
                 <h5 class="card-title">Pembelajaran Kelas 4</h5>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted"><a href="/silabus" className="btn btn-link text-bold">Silabus</a></small>
               </div>
             </div>
           </div>

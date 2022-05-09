@@ -152,7 +152,6 @@ export default function Home() {
         </h2>
         <div class="container">
           <video class="w-100" controls src={prom}>
-            {" "}
           </video>
         </div>
       </div>

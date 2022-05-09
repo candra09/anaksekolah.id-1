@@ -10,6 +10,8 @@ import Silabus from "./components/Silabus/Silabus";
 import Tugas from "./components/Tugas/Tugas";
 import Soal from "./components/Soal/Soal";
 import Diskusi from "./components/Diskusi/Diskusi";
+import Materi from "./components/Silabus/Materi/Materi";
+import Latihan from "./components/Soal/Latihan/Latihan";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
               <Route path="/tugas" exact component={Tugas} />
               <Route path="/soal" exact component={Soal} />
               <Route path="/diskusi" exact component={Diskusi} />
+              <Route path="/materi" exact component={Materi} />
+              <Route path="/latihan" exact component={Latihan} />
             </div>
           </Switch>
           <div className="app-footer">

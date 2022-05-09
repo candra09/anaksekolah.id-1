@@ -36,22 +36,22 @@ export default function Silabus() {
                         <div class="collapse navbar-collapse">
                             <ul class="navbar-nav mx-3">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="../Silabus">
+                                    <a class="nav-link" href="/silabus">
                                         Silabus
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../Tugas">
+                                    <a class="nav-link" href="/tugas">
                                         Tugas
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../Soal">
+                                    <a class="nav-link" href="/soal">
                                         Soal
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="../Diskusi">
+                                    <a class="nav-link active" href="/diskusi">
                                         Diskusi
                                     </a>
                                 </li>
