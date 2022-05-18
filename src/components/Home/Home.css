@@ -89,6 +89,11 @@
   height: 450px;
 }
 
+#page-1{
+  background-image: url(../assets/img/box/P1.png);
+  height: 550px;
+}
+
 #page-2{
   background-image: url(../assets/img/box/P2.png);
   height: 250px;

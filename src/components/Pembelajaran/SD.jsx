@@ -96,7 +96,7 @@ export default function SD() {
             <div class="card">
               <img src={K1} class="card-img-top" />
               <div class="card-body">
-                <h5 class="card-title">Pembelajaran Kelas 4</h5>
+                <h5 class="card-title text-center">Pembelajaran Kelas 4</h5>
               </div>
               <div class="card-footer">
                 <small class="text-muted">
