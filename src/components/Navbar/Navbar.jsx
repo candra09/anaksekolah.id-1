@@ -61,10 +61,10 @@ export default function Navbar() {
               <MDBNavbarLink href="#">Promo</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#">Event</MDBNavbarLink>
+              <MDBNavbarLink href="/event">Event</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#">Testimoni</MDBNavbarLink>
+              <MDBNavbarLink href="/testimoni">Testimoni</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
           <MDBBtn outline onClick={toggleShow}>
