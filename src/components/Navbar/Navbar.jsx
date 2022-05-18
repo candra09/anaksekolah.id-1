@@ -102,13 +102,13 @@ export default function Navbar() {
                         />
                       </div>
                       <h6>
-                        Belum mempunyai akun?{" "}
+                        Belum mempunyai akun?
                         <a href="/register">Daftar akun</a>&nbsp; atau &nbsp;
                         <a href="#">Lupa Password?</a>
                       </h6>
                       <div className="row px-2">
-                        <button className="btn btn-primary my-3">Login</button>
-                        <button className="btn btn-danger">
+                        <button className="btn btn-primary my-3 mx-2">Login</button>
+                        <button className="btn btn-danger my-3 mx-2">
                           Login dengan Google
                         </button>
                       </div>

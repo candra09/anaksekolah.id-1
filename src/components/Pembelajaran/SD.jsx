@@ -17,36 +17,38 @@ export default function SD() {
       </div>
 
       <div className="container my-3 bg-blue border-25 p-3">
-        <div class="d-flex flex-row mx-4 py-3 text-center">
-          <h3 className="my-3 text-white">Pilih Jenjang Pendidikan : </h3>
-          <div className="col-md mx-3">
+        <div class="d-flex row mx-4 py-3 text-center">
+          <div className="col-md col-sm-12">
+            <h5 className="my-3 text-white">Pilih Jenjang Pendidikan : </h5>
+          </div>
+          <div className="col-md">
             <a
-              href="../SD"
-              className="btn btn-primary w-100 m-2 px-2 fs-4 rounded-pill fw-bold"
+              href="/SD"
+              className="btn btn-primary w-100 my-2 fs-4 rounded-pill fw-bold"
             >
               SD
             </a>
           </div>
-          <div className="col-md mx-3">
+          <div className="col-md">
             <a
               href=""
-              className="btn btn-primary w-100 m-2 px-2 fs-4 rounded-pill fw-bold"
+              className="btn btn-primary w-100 my-2 fs-4 rounded-pill fw-bold"
             >
               SMP
             </a>
           </div>
-          <div className="col-md mx-3">
+          <div className="col-md">
             <a
               href=""
-              className="btn btn-primary w-100 m-2 px-2 fs-4 rounded-pill fw-bold"
+              className="btn btn-primary w-100 my-2 fs-4 rounded-pill fw-bold"
             >
               SMA
             </a>
           </div>
-          <div className="col-md mx-3">
+          <div className="col-md">
             <a
               href=""
-              className="btn btn-primary w-100 m-2 px-2 fs-4 rounded-pill fw-bold"
+              className="btn btn-primary w-100 my-2 fs-4 rounded-pill fw-bold"
             >
               SMK
             </a>
@@ -97,7 +99,11 @@ export default function SD() {
                 <h5 class="card-title">Pembelajaran Kelas 4</h5>
               </div>
               <div class="card-footer">
-                <small class="text-muted"><a href="/silabus" className="btn btn-link text-bold">Silabus</a></small>
+                <small class="text-muted">
+                  <a href="/silabus" className="btn btn-link text-bold">
+                    Silabus
+                  </a>
+                </small>
               </div>
             </div>
           </div>
@@ -124,9 +130,6 @@ export default function SD() {
             </div>
           </div>
         </div>
-
-
-
       </div>
     </div>
   );
