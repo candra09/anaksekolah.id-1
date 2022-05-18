@@ -14,6 +14,8 @@ import Materi from "./components/Silabus/Materi/Materi";
 import Latihan from "./components/Soal/Latihan/Latihan";
 import pembayaran_1 from "./components/Pembayaran/pembayaran_1";
 import pembayaran_2 from "./components/Pembayaran/pembayaran_2";
+import Testimoni from "./components/Testimoni/testimoni";
+import Event from "./components/Event/event";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
               <Route path="/latihan" exact component={Latihan} />
               <Route path="/pembayaran_1" exact component={pembayaran_1} />
               <Route path="/pembayaran_2" exact component={pembayaran_2} />
+              <Route path="/testimoni" exact component={Testimoni} />
+              <Route path="/event" exact component={Event} />
             </div>
           </Switch>
           <div className="app-footer">
