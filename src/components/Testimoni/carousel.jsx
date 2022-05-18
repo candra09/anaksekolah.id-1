@@ -5,7 +5,7 @@ export default function Carousel() {
     return(
         <div className="container-xl">
           <div className="row">
-              <div className="col-md-13">
+              <div className="col-md-12">
                   <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="0">
                       <ol className="carousel-indicators">
                           <li data-target="#myCarousel" data-slide-to="0" className="active"></li>

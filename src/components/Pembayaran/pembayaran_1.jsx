@@ -1,6 +1,6 @@
 import React from "react";
 import "./pembayaran_1.css";
-import IMAGE from "../../assets/img/sd.png";
+import IMAGE from "../../assets/img/IconMTK.png";
 import IconPerson from "../../assets/icon/user.png";
 import IconHarga from "../../assets/icon/iconharga.svg";
 import IconMengikuti from "../../assets/icon/iconMengikuti.svg";
@@ -17,8 +17,8 @@ export default function pembayaran_1() {
                     <h4 style={{fontWeight: 'bold', color: 'white'}}>Keterangan Paket Kelas</h4>
                 </div>
                 <div className="card">
-                    <div className="card-img-top align-items-center" >
-                        <img src={IMAGE} style={{width: '50%' }} />
+                    <div className="card-img-top mt-3 align-items-center text-center" >
+                        <img src={IMAGE} style={{width: '30%' }} />
                     </div>
                     <div className="card-judul align-items-center justify-content-center" style={{ fontSize: 24, }}  >
                         <strong>Matematika kelas 12</strong>
@@ -37,9 +37,9 @@ export default function pembayaran_1() {
             
             <div className="col-lg-3">
                 <div className="card " style={{borderRadius: '30px', borderWidth: '2px', borderColor: '#000000'}}>
-                    <div className="row card-body text-center align-items-center justify-content-center " >
+                    <div className="row card-body  text-center align-items-center justify-content-center " >
                         <h5 style={{fontWeight: 'bold'}}>Pendaftaran</h5>
-                        <a href="/Pembayaran_2" className="btn btn-hover btn-primary px-4 py-2 text-size-1" style={{ backgroundColor: '#2F5493' }}>
+                        <a href="/Pembayaran_2" className="btn btn-hover btn-primary mt-4 px-4 py-2 w-50 text-size-1" style={{ backgroundColor: '#2F5493' }}>
                             {/* <i></i> */}
                             Daftar Kelas
                             </a>

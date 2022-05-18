@@ -1,6 +1,5 @@
 import React from "react";
 import "./testimoni.css";
-import IMAGE from "../../assets/img/sd.png";
 import Carousel from "./carousel";
 import CarouselYt from "./carousel-yt";
 
@@ -62,7 +61,7 @@ export default function Testimoni() {
 
 
       <div className="container">
-          <div className="card col-md-12 p-3">
+          <div className="card col-md-12 p-3 border-0">
             <div className="row">
                 <div className="col-md-6">
                         {/* <img className="w-100" src={IMAGE} style={{width:'450px'}}/> */}

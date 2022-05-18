@@ -1,27 +1,4 @@
-.card {
-    width: 100%;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: 0.25rem;
-}
 
-.card-body {
-    position: relative;
-    display: flex;
-    flex: 1 1 auto;
-    padding: 1.25rem;
-}
 .button {
     display: inline-block;
     top:50%;
@@ -59,13 +36,13 @@
     color: #FFFFFF;
 }
 .carousel {
-  margin-top: 5px;
-  margin-bottom: 60px;
+  /* margin-top: 5px;
+  margin-bottom: 60px; */
   margin-left: auto;
   margin-right: auto;
-
-  /* padding: 0 70px; */
-}
+/* 
+  padding: 0 70px; */
+ }
 .carousel .item {
   color: #747d89;
   min-height: 300px;
@@ -73,15 +50,15 @@
   overflow: hidden;
 }
 .carousel .thumb-wrapper {
-  /* padding: 25px 15px; */
-  background:#3EB0EF;
-  height: 350px;
+  padding: 25px 15px;
+  /* background:#3EB0EF;
+  height: 350px; */
   /* width: 220px; */
   border-radius: 6px;
   text-align: center;
   position: relative;
   box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-}
+} 
 .carousel .item .img-box {
   height: 150px;
   margin-bottom: 20px;
@@ -138,9 +115,12 @@
 .carousel-control-next i {
   margin-right: -4px;
 }   
-.carousel-indicators {
+/* .carousel-indicators {
   bottom: -50px;
 }
+.carousel-indicators-yt {
+  bottom: -100px;
+} */
 .carousel-indicators li, .carousel-indicators li.active {
   width: 10px;
   height: 10px;
@@ -155,14 +135,14 @@
   background: rgba(0, 0, 0, 0.6);
 }
 .carousel .wish-icon {
-  position: absolute;
+  /* position: absolute; */
   right: 10px;
   top: 10px;
   z-index: 99;
   cursor: pointer;
   font-size: 16px;
   color: #abb0b8;
-}
+}  
 
 
 /* .card {
@@ -212,7 +192,7 @@
     margin-bottom: 0.5rem;
 } */ 
 
-.card {
+/* .card {
     
     border-radius:0;
     border: 0;
@@ -220,7 +200,7 @@
 }
 .card-title {
 	text-transform: uppercase;
-	color: #000000;
+	color: #000000;q
     font-weight: bold;
 }
 
@@ -229,8 +209,8 @@
 	margin-bottom: 10px;
 	background-color:#FFFFFF;
 	color:#000000;
-}
-a.btn, a.btn:hover {
+}*/
+/* a.btn, a.btn:hover {
     color:#333333;
 }
 hr {
@@ -238,4 +218,4 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
+}   */

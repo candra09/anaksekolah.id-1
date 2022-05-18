@@ -39,13 +39,13 @@ export default function Event() {
 
 
       <div className="container mt-5">
-          <div className="card col-md-12 p-3 ">
+          <div className="card col-md-12 p-3 border-0">
             <div className="row">
-                <div className="col-md-6 mx-5 p-5">
+                <div className="col-md-6 py-3">
                 <div className="card-block">
                             <h5 className="card-title">Event  Terbaru</h5>
                             <p className="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus. Eu, purus gravida in integer neque faucibus adipiscing. Amet lectus dictum erat et.</p>
-                            <a href="#" className="btn btn-primary" style={{backgroundColor: '#3EB0EF', borderRadius: '20px', alignContent: 'flex-end'}}>Selengkapnya</a>
+                            <a href="#" className="btn btn-primary" style={{backgroundColor: '#3EB0EF', borderRadius: '20px', alignContent: 'flex-end',}}>Selengkapnya</a>
                         </div>
                         
                     </div>
