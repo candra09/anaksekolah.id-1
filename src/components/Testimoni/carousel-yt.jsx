@@ -6,8 +6,8 @@ export default function CarouselYt() {
         <div className="container-xl">
           <div className="row">
               <div className="col-md-12">
-                  <div id="myCarousel" className="carousel-yt slide" data-ride="carousel" data-interval="0">
-                      <ol className="carousel-indicators">
+                  <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="0">
+                      <ol className="carousel-indicators-yt">
                           <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                           <li data-target="#myCarousel" data-slide-to="1" ></li>
                           <li data-target="#myCarousel" data-slide-to="2" ></li>

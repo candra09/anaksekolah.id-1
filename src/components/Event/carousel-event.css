@@ -4,22 +4,22 @@
   margin-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
-
-  padding: 0 70px;
+/* 
+  padding: 0 70px; */
 }
 .carousel .item {
   color: #747d89;
   min-height: 300px;
   text-align: center;
   overflow: hidden;
-}
+} 
 .carousel .thumb-wrapper {
-  /* padding: 25px 15px; */
+  padding: 25px 15px;
   
   margin: 30px;
   background:#3EB0EF;
-  height: 350px;
-  /* width: 220px; */
+  /* height: 350px;
+  width: 220px;  */
   border-radius: 6px;
   text-align: center;
   position: relative;
@@ -112,5 +112,4 @@ h4{
 .text-crs-event{
     padding: 10px;
     color: #000000;
-}
-
+} 

@@ -1,4 +1,4 @@
-.containerFlex {
+/* .containerFlex {
     border-width: 1px;
     border-color: black;
     border-radius: 10px;
@@ -13,9 +13,9 @@
 .flex2 {
     background-color: yellow;
     width: 300px;
-}
+} */
 
-.card {
+/* .card {
     width: 100%;
     position: relative;
     display: -webkit-box;
@@ -51,12 +51,12 @@
     -ms-flex-direction: column;
     flex-direction: column;
     min-width: 0;
-    word-wrap: break-word;
+    word-wrap: break-word; */
     /* background-color: #fff;
         background-clip: border-box;
         border: 1px solid rgba(0,0,0,.125);
         border-radius: 0.25rem; */
-}
+/* } */
 
 .card-judul {
     position: relative;
@@ -68,7 +68,7 @@ li {
     list-style-type: none;
 }
 
-.btn-primary {
+/* .btn-primary {
     color: #fff;
     background-color: '#2F5493';
     border-color: #2F5493;
@@ -81,6 +81,6 @@ li {
     background-color: '#2F5493';
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 0.25rem;
+    border-radius: 0.25rem; */
     /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
-}
+/* } */

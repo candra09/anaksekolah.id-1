@@ -1,11 +1,6 @@
 import React from "react";
 import "./pembayaran_2.css";
-import IMAGE from "../../assets/img/sd.png";
-import IconPerson from "../../assets/icon/user.png";
-import IconHarga from "../../assets/icon/iconharga.svg";
-import IconMengikuti from "../../assets/icon/iconMengikuti.svg";
-import IconModul from "../../assets/icon/iconModul.svg";
-import IconTransaksi from "../../assets/icon/iconTransaksi.svg";
+import IMAGE from "../../assets/img/IconMTK.png";
 import IconMoney from "../../assets/icon/iconMoney.svg";
 import IconHand from "../../assets/icon/iconhandshake.svg";
 
@@ -18,8 +13,8 @@ export default function pembayaran_2() {
                     <h4 style={{fontWeight: 'bold', color: 'white'}}>Keterangan Paket Kelas</h4>
                 </div>
                 <div className="card">
-                    <div className="card-img-top align-items-center" >
-                        <img src={IMAGE} style={{width: '50%' }} />
+                    <div className="card-img-top mt-3 align-items-center text-center" >
+                        <img src={IMAGE} style={{width: '30%' }} />
                     </div>
                     <div className="card-judul align-items-center justify-content-center" style={{ fontSize: 24, }}  >
                         <strong>Matematika kelas 12</strong>
@@ -41,8 +36,8 @@ export default function pembayaran_2() {
                     <form action method="post" acceptCharset="utf-8">
                         {/* <input></input> */}
                         <div>
-                            <div className="row card-body text-center">
-                                <div className="dropdown-pembayaran">
+                            <div className="row card-body">
+                                <div className="dropdown-pembayaran  text-center">
                                     <h3>Pembayaran</h3>
                                     {/* <div className="dropdown pb-2">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
@@ -54,11 +49,11 @@ export default function pembayaran_2() {
                                         </div>
                                     </div> */}
                                     <div class="dropdown pb-2">
-                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style={{backgroundColor:'#2F5493',borderRadius: '10px'}}>
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"style={{backgroundColor:'#2F5493',borderRadius: '10px'}}>
                                         E-wallet
                                         </button>
                                         <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="/">DANA</a>
+                                        <a class="dropdown-item " href="/">DANA</a>
                                         <a class="dropdown-item" href="#">BCA</a>
                                         <a class="dropdown-item" href="#">BRI</a>
                                     </div>
@@ -68,10 +63,10 @@ export default function pembayaran_2() {
                                     <br/>
                                     <hr/>
                             </div>
-                            <div className="form-check text-left mb-2">
-                                    <input type="checkbox" className="form-check-input"/>
+                            <div className="form-check mb-2 ">
+                                    <input type="checkbox" className="form-check-input mx-2"/>
                                     <label className="from-check-label">
-                                            <strong>Pakai Kupon</strong>
+                                            <strong >Pakai Kupon</strong>
                                         </label>
 
                             </div>
