@@ -3,6 +3,10 @@ import "../../styles/Home.css";
 import prom from "../../assets/videos/prom.mp4";
 import background from "../../assets/img/back.png";
 import P1 from "./assets/P1.png";
+import P2 from "./assets/P2.png";
+import P3 from "./assets/P3.png";
+import P4 from "./assets/P4.png";
+import P5 from "./assets/P5.png";
 
 export default function Home() {
   return (
@@ -362,18 +366,19 @@ export default function Home() {
         <h3 className="fw-bolder p-3 text-center">
           Paling baru di AnakSekolah.id
         </h3>
-        <div class="card-group mx-2 my-3 text-white">
-          <div className="card mx-3 mb-5">
-            <img src={P1} alt="" className="w-100" />
-          </div>
-          <div className="card mx-3 mb-5">
-            <div class="row">
-              <img src={P1} alt="" className="col-md w-100" />
-              <img src={P1} alt="" className="col-md w-100"/>
+        <div class="col mx-2 my-3 text-white">
+          <div className="row">
+            <div className="col-md mx-3 mb-5">
+              <img src={P1} alt="" className="w-100 h-100" />
             </div>
-          </div>
-          <div className="card mx-3 mb-5 rounded-pill">
-            <img src={P1} alt="" className="w-100" />
+            <div className="col-md mx-3 mb-5">
+              <img src={P2} alt="" className="w-100 pb-3 h-50" />
+              <img src={P3} alt="" className="w-100 h-50" />
+            </div>
+            <div className="col-md mx-3 mb-5">
+              <img src={P4} alt="" className="w-100 pb-3 h-50" />
+              <img src={P5} alt="" className="w-100 h-50" />
+            </div>
           </div>
         </div>
       </div>
