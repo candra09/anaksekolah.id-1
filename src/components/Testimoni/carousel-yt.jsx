@@ -7,7 +7,7 @@ export default function CarouselYt() {
           <div className="row">
               <div className="col-md-12">
                   <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="0">
-                      <ol className="carousel-indicators-yt">
+                      <ol className="carousel-indicators">
                           <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                           <li data-target="#myCarousel" data-slide-to="1" ></li>
                           <li data-target="#myCarousel" data-slide-to="2" ></li>
