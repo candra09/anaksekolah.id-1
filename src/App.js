@@ -1,3 +1,4 @@
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -16,13 +17,39 @@ import pembayaran_1 from "./components/Pembayaran/pembayaran_1";
 import pembayaran_2 from "./components/Pembayaran/pembayaran_2";
 import Testimoni from "./components/Testimoni/testimoni";
 import Event from "./components/Event/event";
+import Offline from "./components/Offline";
+
 
 function App() {
+
+  //tambah state untuk menampung staus online/offline
+  const [offlineStatus, setOfflineStatus] = React.useState(!navigator.onLine);
+
+  //fungsi untuk menghandle status offline/online
+  function handleOfflineStatus() {
+    setOfflineStatus(!navigator.onLine);
+  }
+  
+  React.useEffect(function() {
+  
+    //ketika pertama kali components dijalankan maka akan mengecek status terlebih dahulu
+    handleOfflineStatus();
+    window.addEventListener('online', handleOfflineStatus);
+    window.addEventListener('offline', handleOfflineStatus)
+  
+    //fungsi useeffect akan mendevinisikan components
+    return function() {
+        window.removeEventListener('online', handleOfflineStatus)
+        window.removeEventListener('offline', handleOfflineStatus)
+    }
+}, [offlineStatus]);
+
   return (
     <div>
       <div className="App">
         <Router>
           <div className="app-header">
+          {offlineStatus && <Offline/>}
             <Navbar />
           </div>
           <Switch>
