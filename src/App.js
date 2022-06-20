@@ -18,7 +18,9 @@ import pembayaran_2 from "./components/Pembayaran/pembayaran_2";
 import Testimoni from "./components/Testimoni/testimoni";
 import Event from "./components/Event/event";
 import Offline from "./components/Offline";
-
+import Ekskul from "./components/Ekskul/Ekskul";
+import DetailEkskul from "./components/Ekskuldetail/index";
+import PromoSD from "./components/Promo/PromoSD"
 
 function App() {
 
@@ -67,6 +69,9 @@ function App() {
               <Route path="/pembayaran_2" exact component={pembayaran_2} />
               <Route path="/testimoni" exact component={Testimoni} />
               <Route path="/event" exact component={Event} />
+              <Route path="/ekskul" exact component={Ekskul} />
+              <Route path="/ekskul/detail" exact component={DetailEkskul} />
+              <Route path="/promo/SD" exact component={PromoSD} />
             </div>
           </Switch>
           <div className="app-footer">

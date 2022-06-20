@@ -11,19 +11,12 @@ import {
   MDBNavbarItem,
   MDBNavbarLink,
   MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
-  MDBDropdownLink,
   MDBCollapse,
   MDBModal,
   MDBModalDialog,
   MDBModalContent,
   MDBModalHeader,
-  MDBModalTitle,
   MDBModalBody,
-  MDBModalFooter,
 } from "mdb-react-ui-kit";
 
 export default function Navbar() {
@@ -35,7 +28,7 @@ export default function Navbar() {
     <MDBNavbar expand="lg" light bgColor="light">
       <MDBContainer>
         <MDBNavbarBrand href="/">
-          <img src={logo} className="py-2" />
+          <img src={logo} alt="logo" className="py-2" />
         </MDBNavbarBrand>
 
         <MDBNavbarToggler
@@ -55,10 +48,10 @@ export default function Navbar() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#">Ekskul</MDBNavbarLink>
+              <MDBNavbarLink href="/ekskul">Ekskul</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#">Promo</MDBNavbarLink>
+              <MDBNavbarLink href="/promo/SD">Promo</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink href="/event">Event</MDBNavbarLink>
@@ -83,7 +76,7 @@ export default function Navbar() {
                 <MDBModalBody>
                   <div className="container">
                     <div className="text-center">
-                      <img src={logo} />
+                      <img src={logo} alt="logo"/>
                       <h3 className="fs-1">Login</h3>
                     </div>
                     <form action="">
@@ -104,7 +97,7 @@ export default function Navbar() {
                       <h6>
                         Belum mempunyai akun?
                         <a href="/register">Daftar akun</a>&nbsp; atau &nbsp;
-                        <a href="#">Lupa Password?</a>
+                        <a href="/">Lupa Password?</a>
                       </h6>
                       <div className="row px-2">
                         <button className="btn btn-primary my-3 mx-2">Login</button>
