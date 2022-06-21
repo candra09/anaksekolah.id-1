@@ -39,7 +39,7 @@ export default function pembayaran_1() {
                 <div className="card " style={{borderRadius: '30px', borderWidth: '2px', borderColor: '#000000'}}>
                     <div className="row card-body  text-center align-items-center justify-content-center " >
                         <h5 style={{fontWeight: 'bold'}}>Pendaftaran</h5>
-                        <a href="/Pembayaran_2" className="btn btn-hover btn-primary mt-4 px-4 py-2 w-50 text-size-1" style={{ backgroundColor: '#2F5493' }}>
+                        <a href="/paypage" className="btn btn-hover btn-primary mt-4 px-4 py-2 w-50 text-size-1" style={{ backgroundColor: '#2F5493' }}>
                             {/* <i></i> */}
                             Daftar Kelas
                             </a>

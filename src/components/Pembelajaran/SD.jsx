@@ -56,17 +56,21 @@ export default function SD() {
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
-          <div >
-
+          <div>
             <div class="card">
               <img src={K1} class="card-img-top" />
               <div class="card-body">
-              <a href="/silabus" style={{textDecoration: 'none', color: '#000000'}}>
-                <h5 class="card-title">Pembelajaran Kelas 1</h5>
-                    </a>
+                <a
+                  href="/silabus"
+                  style={{ textDecoration: "none", color: "#000000" }}
+                >
+                  <h5 class="card-title">Pembelajaran Kelas 1</h5>
+                </a>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <a href="/invoice" className="btn btn-link text-bold">
+                  Daftar Kelas
+                </a>
               </div>
             </div>
           </div>
@@ -77,7 +81,9 @@ export default function SD() {
                 <h5 class="card-title">Pembelajaran Kelas 2</h5>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <a href="/invoice" className="btn btn-link text-bold">
+                  Daftar Kelas
+                </a>
               </div>
             </div>
           </div>
@@ -88,7 +94,9 @@ export default function SD() {
                 <h5 class="card-title">Pembelajaran Kelas 3</h5>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <a href="/invoice" className="btn btn-link text-bold">
+                  Daftar Kelas
+                </a>
               </div>
             </div>
           </div>
@@ -103,8 +111,8 @@ export default function SD() {
               </div>
               <div class="card-footer">
                 <small class="text-muted">
-                  <a href="/silabus" className="btn btn-link text-bold">
-                    Silabus
+                  <a href="/invoice" className="btn btn-link text-bold">
+                    Daftar Kelas
                   </a>
                 </small>
               </div>
@@ -117,7 +125,9 @@ export default function SD() {
                 <h5 class="card-title">Pembelajaran Kelas 5</h5>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <a href="/invoice" className="btn btn-link text-bold">
+                  Daftar Kelas
+                </a>
               </div>
             </div>
           </div>
@@ -128,7 +138,9 @@ export default function SD() {
                 <h5 class="card-title">Pembelajaran Kelas 6</h5>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <a href="/invoice" className="btn btn-link text-bold">
+                  Daftar Kelas
+                </a>
               </div>
             </div>
           </div>

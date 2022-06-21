@@ -3,7 +3,7 @@ import Icon from '../../assets/img/register.png';
 
 export default function Register() {
     return (
-        <div className="jumbotron bg-blue">
+        <div className="jumbotron bg-blue pb-5">
             <div className="container d-flex">
                 <div className="col-md-6 sm-12">
                     <h3 className='display-4 pt-5 pb-3 text-white'>Daftar Akun</h3>
@@ -37,7 +37,7 @@ export default function Register() {
                     </div>
                     <button className='btn btn-md bg-primary w-100 p-2'>Daftar</button>
                 </div>
-                <div className="col-md-6 sm-12">
+                <div className="col-md-6">
                     <img src={Icon} className="w-100" />
                 </div>
             </div>

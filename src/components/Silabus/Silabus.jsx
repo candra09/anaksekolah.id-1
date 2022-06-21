@@ -23,10 +23,6 @@ export default function Silabus() {
                 facilis dolores quia fugit! Laudantium, illum totam reiciendis
                 possimus minima corporis dolorum autem beatae?
               </p>
-              <a href="/pembayaran_1" style={{textDecoration: 'none'}}>
-                <button className="btn bg-dblue text-white">Daftar Kelas</button> 
-                    </a>
-              
             </div>
           </div>
         </div>
@@ -63,8 +59,8 @@ export default function Silabus() {
         </div>
         <div className="row row-cols-1 bg-blue px-5">
           <div className="mt-5 px-5 py-3 bg-lblue border-25">
-            <a href="/materi">
-              <h1 className="display-3">Materi 1</h1>
+            <a href="/materi" className="rounded-pill">
+              <h1 className="fs-2">Materi 1</h1>
             </a>
           </div>
           <div className="col mt-5 px-5 py-3 bg-lblue border-25">

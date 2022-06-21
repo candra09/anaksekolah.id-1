@@ -1,0 +1,11 @@
+.border-progress{
+    border-left: 5px solid yellow;
+}
+
+.border-done{
+    border-left: 5px solid lightgreen;
+}
+
+img{
+    max-width: 128px;
+}
