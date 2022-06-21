@@ -56,11 +56,14 @@ export default function SD() {
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
-          <div class="col height">
+          <div >
+
             <div class="card">
               <img src={K1} class="card-img-top" />
               <div class="card-body">
+              <a href="/silabus" style={{textDecoration: 'none', color: '#000000'}}>
                 <h5 class="card-title">Pembelajaran Kelas 1</h5>
+                    </a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>

@@ -59,7 +59,10 @@ export default function pembayaran_2() {
                                     </div>
 
                                 </div>
-                                    <button type="button" class="btn btn-primary btn-submit mb-2" style={{backgroundColor: 'red', borderRadius: '10px'}}> Bayar Sekarang </button>
+                                    <a href="/silabus" style={{textDecoration: 'none'}}>
+                                        <button type="button" class="btn btn-primary btn-submit mb-2" style={{backgroundColor: 'red', borderRadius: '10px'}}> Bayar Sekarang </button>
+                                    </a>
+                                    
                                     <br/>
                                     <hr/>
                             </div>
