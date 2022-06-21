@@ -13,7 +13,7 @@ export default function Silabus() {
           <div className="col-md-3 d-lg-inline-flex p-5">
             <img src={mtk} alt="" className="w-75 mx-5" />
           </div>
-          <div className="col-md-9 d-lg-inline-flex">
+          <div className="col-md-9 d-lg-inline-flex pb-3">
             <div className="mt-5 mx-5 text-white">
               <h1 className="fw-bolder">Matematika kelas 3</h1>
               <br />
@@ -23,6 +23,10 @@ export default function Silabus() {
                 facilis dolores quia fugit! Laudantium, illum totam reiciendis
                 possimus minima corporis dolorum autem beatae?
               </p>
+              <a href="/pembayaran_1" style={{textDecoration: 'none'}}>
+                <button className="btn bg-dblue text-white">Daftar Kelas</button> 
+                    </a>
+              
             </div>
           </div>
         </div>
