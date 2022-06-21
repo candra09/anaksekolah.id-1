@@ -1,5 +1,8 @@
 import React from "react";
 import "./testimoni.css";
+import img1 from '../../assets/img/img-anton.png'
+import img2 from '../../assets/img/img-citra.png'
+import img3 from '../../assets/img/img-rangga.png'
 
 export default function Carousel() {
     return(
@@ -18,8 +21,56 @@ export default function Carousel() {
                               <div className="row">
                                   <div className="col-sm-3 p-2">
                                       <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
+                                          <div >
+                                              <img  className="img-box " src={img3}/>
+                                          </div>
+                                          <div style={{color: '#000000'}}> 
+                                              <h4>Rangga</h4>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div className="col-sm-3 p-2">
+                                      <div className=" thumb-wrapper">
+                                          <div>
+                                            <img  className="img-box " src={img2}/>
+                                          </div>
+                                          <div style={{color: '#000000'}}> 
+                                              <h4>Citra</h4>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div className="col-sm-3 p-2">
+                                      <div className=" thumb-wrapper">
+                                          <div>
+                                            <img  className="img-box " src={img1}/>
+                                          </div>
+                                          <div style={{color: '#000000'}}> 
+                                              <h4>Anton</h4>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div className="col-sm-3 p-2">
+                                      <div className=" thumb-wrapper">
+                                          <div>
+                                            <img  className="img-box " src={img3}/>
+                                          </div>
+                                          <div style={{color: '#000000'}}> 
+                                              <h4>Rangga</h4>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div className="item carousel-item">
+                              <div className="row">
+                                  <div className="col-sm-3 p-2">
+                                      <div className=" thumb-wrapper">
+                                          <div>
+                                           <img  className="img-box " src={img1}/>
                                           </div>
                                           <div style={{color: '#000000'}}> 
                                               <h4>Testimoni</h4>
@@ -29,8 +80,8 @@ export default function Carousel() {
                                   </div>
                                   <div className="col-sm-3 p-2">
                                       <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
+                                          <div>
+                                            <img  className="img-box " src={img2}/>
                                           </div>
                                           <div style={{color: '#000000'}}> 
                                               <h4>Testimoni</h4>
@@ -40,8 +91,8 @@ export default function Carousel() {
                                   </div>
                                   <div className="col-sm-3 p-2">
                                       <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
+                                          <div>
+                                           <img  className="img-box " src={img1}/>
                                           </div>
                                           <div style={{color: '#000000'}}> 
                                               <h4>Testimoni</h4>
@@ -51,8 +102,8 @@ export default function Carousel() {
                                   </div>
                                   <div className="col-sm-3 p-2">
                                       <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
+                                          <div>
+                                           <img  className="img-box " src={img3}/>
                                           </div>
                                           <div style={{color: '#000000'}}> 
                                               <h4>Testimoni</h4>
@@ -66,56 +117,8 @@ export default function Carousel() {
                               <div className="row">
                                   <div className="col-sm-3 p-2">
                                       <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
-                                          </div>
-                                          <div style={{color: '#000000'}}> 
-                                              <h4>Testimoni</h4>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus.</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div className="col-sm-3 p-2">
-                                      <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
-                                          </div>
-                                          <div style={{color: '#000000'}}> 
-                                              <h4>Testimoni</h4>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus.</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div className="col-sm-3 p-2">
-                                      <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
-                                          </div>
-                                          <div style={{color: '#000000'}}> 
-                                              <h4>Testimoni</h4>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus.</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div className="col-sm-3 p-2">
-                                      <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
-                                          </div>
-                                          <div style={{color: '#000000'}}> 
-                                              <h4>Testimoni</h4>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus.</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div className="item carousel-item">
-                              <div className="row">
-                                  <div className="col-sm-3 p-2">
-                                      <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
+                                          <div>
+                                            <img  className="img-box " src={img2}/>
                                           </div>
                                           <div style={{color: '#000000'}}>  
                                               <h4>Testimoni</h4>
@@ -125,8 +128,8 @@ export default function Carousel() {
                                   </div>
                                   <div className="col-sm-3 p-2">
                                       <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
+                                          <div>
+                                            <img  className="img-box " src={img1}/>
                                           </div>
                                           <div style={{color: '#000000'}}> 
                                               <h4>Testimoni</h4>
@@ -136,8 +139,8 @@ export default function Carousel() {
                                   </div>
                                   <div className="col-sm-3 p-2">
                                       <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
+                                          <div>
+                                            <img  className="img-box " src={img3}/>
                                           </div>
                                           <div style={{color: '#000000'}}> 
                                               <h4>Testimoni</h4>
@@ -147,8 +150,8 @@ export default function Carousel() {
                                   </div>
                                   <div className="col-sm-3 p-2">
                                       <div className=" thumb-wrapper">
-                                          <div className="img-box ">
-                                              {/* <img src={IMAGE} className="img-fluid"/> */}
+                                          <div>
+                                            <img  className="img-box " src={img2}/>
                                           </div>
                                           <div style={{color: '#000000'}}> 
                                               <h4>Testimoni</h4>

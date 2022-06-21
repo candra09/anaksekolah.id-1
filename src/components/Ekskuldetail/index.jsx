@@ -107,20 +107,20 @@ export default function Silabus() {
       </div>
 
       <div class="jumbotron my-3">
-        <h1 class="text-center py-3 ">Event Ekstra Kulikuler Kesenian</h1>
+        <h1 class="text-center py-3 pt-5 ">Event Ekstra Kulikuler Kesenian</h1>
       </div>
 
       <div className="container" id="event">
         <div className="row">
-          <div className="col-md mx-3 mb-5">
-            <img src={img6} alt="" className="w-75 h-50 border-25" />
+          <div className="col-md ">
+            <img src={img6} alt="" className="w-100 h-50 border-25" />
           </div>
-          <div className="col-md mx-3 mb-5">
-            <img src={img4} alt="" className="w-100 pb-3 h-25 border-25" />
+          <div className="col-md ">
+            <img src={img7} alt="" className="w-100 pb-3 h-25 border-25" />
             <img src={img7} alt="" className="w-100 h-25 border-25" />
           </div>
-          <div className="col-md mx-3 mb-5">
-            <img src={img5} alt="" className="w-100 pb-3 h-25 border-25" />
+          <div className="col-md ">
+            <img src={img7} alt="" className="w-100 pb-3 h-25 border-25" />
             <img src={img7} alt="" className="w-100 h-25 border-25" />
           </div>
         </div>

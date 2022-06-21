@@ -14,7 +14,7 @@ export default function PromoSD() {
             Aplikasi Pembelajaran Online <br />
             Untuk anak Sekolah
           </p>
-          <a href="/" className="btn btn-md btn-primary w-25 rounded-pill">
+          <a href="#" className="btn btn-md btn-primary w-25 rounded-pill">
             Download Aplikasi
           </a>
         </div>
@@ -23,19 +23,19 @@ export default function PromoSD() {
         <div class="d-flex flex-row mx-4 py-3 text-center">
           <h3 className="my-1 text-white">Pilih Jenjang Pendidikan : </h3>
           <a
-            href="/"
+            href="#"
             className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
           >
             SD
           </a>
           <a
-            href="/"
+            href="#"
             className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
           >
             SMP
           </a>
           <a
-            href="/"
+            href="#"
             className="btn btn-primary m-2 px-2 fs-4 w-25 rounded-pill fw-bold"
           >
             SMA

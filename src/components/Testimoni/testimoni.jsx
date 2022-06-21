@@ -3,18 +3,35 @@ import "./testimoni.css";
 import Carousel from "./carousel";
 import CarouselYt from "./carousel-yt";
 
+import IMAGE from '../../assets/img/img-testi.png'
+
 
 export default function Testimoni() {
   return (
       <div className="main">
       <div class="fluid-jumbotron bg-blue p-5  " style={{height:'300px'}}>
         <div className="container">
-          <div className="overlay text-dark align-center pt-5">
+          {/* <div className="overlay text-dark align-center pt-5">
             <h5 class="display-5 fw-bold my-3 text-center text-white">
-              Testimoni
+            Cerita Seru Pembelajaran 
+            Di Anaksekolah.ID
             </h5>
           </div>
-        </div>
+          <img className="w-100" src={IMAGE} style={{width:'100px', height: '100px'}}/>
+        </div> */}
+       
+            <div className="row">
+                <div className="col-md-7">
+                    <div >
+                        <h5 class="display-5 fw-bold text-center text-white"> Cerita Seru Pembelajaran Anaksekolah.ID</h5>
+                        </div>
+                    </div>
+                <div className="col-md-3 pb-2">
+                        <img className=" mx-5 "  src={IMAGE} style={{width:'430px',}}/>    
+                    </div>
+                </div>
+            </div>
+  
       </div>
 
       <div className="container my-3 p-3">
@@ -65,11 +82,11 @@ export default function Testimoni() {
             <div className="row">
                 <div className="col-md-6">
                         {/* <img className="w-100" src={IMAGE} style={{width:'450px'}}/> */}
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YJym5QIC8aY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4tfv-U-KJ5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div className="col-md-5 p-4">
                         <div className="card-block">
-                            <h5 className="card-title">Review Pembelajaran</h5>
+                            <h5 className="card-title fw-bold">Review Pembelajaran</h5>
                             <p className="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod gravida in quis dictum donec mi faucibus. Eu, purus gravida in integer neque faucibus adipiscing. Amet lectus dictum erat et.</p>
                             <a href="#" className="btn btn-primary" style={{backgroundColor: '#3EB0EF', borderRadius: '20px'}}>Selengkapnya</a>
                         </div>

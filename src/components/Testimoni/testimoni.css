@@ -60,12 +60,12 @@
   box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 } 
 .carousel .item .img-box {
-  height: 150px;
+  height: 200px;
   margin-bottom: 20px;
   width: 100%;
   position: relative;
   
-  background-image: url(../../assets/img/IconMTK.png);
+  /* background-image: url(../../assets/img/img-citra.png); */
 }
 .carousel .item img { 
   max-width: 100%;

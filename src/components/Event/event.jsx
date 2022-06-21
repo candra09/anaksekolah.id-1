@@ -3,17 +3,33 @@ import "./event.css";
 import IMAGE from "../../assets/img/event.png";
 import CarouselEvent from "./carousel-event";
 
+import IMAGEBG from '../../assets/img/img-bg-event.png';
+
 export default function Event() {
   return (
       <div className="main">
       <div class="fluid-jumbotron bg-blue p-5  " style={{height:'300px'}}>
         <div className="container">
-          <div className="overlay text-dark align-center pt-5">
+          {/* <div className="overlay text-dark align-center pt-5">
             <h5 class="display-5 fw-bold my-3 text-center text-white">
-              Event
+            Event Anaksekolah.ID
+    Temukan Event 
+    yang kamu inginkan
             </h5>
-          </div>
-        </div>
+          </div> */}
+          <div className="row">
+                <div className="col-md-7">
+                    <div >
+                        <h5 class="display-5 fw-bold text-center text-white"> Event Anaksekolah.ID Temukan Event yang kamu inginkan</h5>
+                        </div>
+                    </div>
+                <div className="col-md-3 pb-2">
+                        <img className=" mx-5 "  src={IMAGEBG} style={{width:'415px',}}/>    
+                    </div>
+                </div>
+            </div>
+  
+  
       </div>
 
       
