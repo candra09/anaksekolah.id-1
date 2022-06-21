@@ -43,9 +43,7 @@ export default function Navbar() {
         <MDBCollapse navbar show={showBasic} center>
           <MDBNavbarNav className="mr-auto mb-lg-0">
             <MDBNavbarItem>
-              <MDBNavbarLink className="text" href="/SD">
-                Kelas
-              </MDBNavbarLink>
+              <MDBNavbarLink href="/SD">Kelas</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink href="/ekskul">Ekskul</MDBNavbarLink>
@@ -76,7 +74,7 @@ export default function Navbar() {
                 <MDBModalBody>
                   <div className="container">
                     <div className="text-center">
-                      <img src={logo} alt="logo"/>
+                      <img src={logo} alt="logo" />
                       <h3 className="fs-1">Login</h3>
                     </div>
                     <form action="">
@@ -100,7 +98,9 @@ export default function Navbar() {
                         <a href="/">Lupa Password?</a>
                       </h6>
                       <div className="row px-2">
-                        <button className="btn btn-primary my-3 mx-2">Login</button>
+                        <button className="btn btn-primary my-3 mx-2">
+                          Login
+                        </button>
                         <button className="btn btn-danger my-3 mx-2">
                           Login dengan Google
                         </button>

@@ -11,7 +11,7 @@ export default function Silabus() {
         </div>
         <div className="row d-flex bg-blue">
           <div className="col-md-3 d-lg-inline-flex p-5">
-            <img src={mtk} alt="" className="w-75 mx-5" />
+            <img src={mtk} alt="" className="w-100" />
           </div>
           <div className="col-md-9 d-lg-inline-flex pb-3">
             <div className="mt-5 mx-5 text-white">
@@ -59,21 +59,21 @@ export default function Silabus() {
         </div>
         <div className="row row-cols-1 bg-blue px-5">
           <div className="mt-5 px-5 py-3 bg-lblue border-25">
-            <a href="/materi" className="rounded-pill">
+            <a href="/materi" className="btn btn-primary">
               <h1 className="fs-2">Materi 1</h1>
             </a>
           </div>
           <div className="col mt-5 px-5 py-3 bg-lblue border-25">
-            <h1 className="display-3">Materi 2</h1>
+            <h1 className="fs-2">Materi 2</h1>
           </div>
           <div className="col mt-5 px-5 py-3 bg-lblue border-25">
-            <h1 className="display-3">Materi 3</h1>
+            <h1 className="fs-2">Materi 3</h1>
           </div>
           <div className="col mt-5 px-5 py-3 bg-lblue border-25">
-            <h1 className="display-3">Materi 4</h1>
+            <h1 className="fs-2">Materi 4</h1>
           </div>
           <div className="col mt-5 mb-5 px-5 py-3 bg-lblue border-25">
-            <h1 className="display-3">Materi 5</h1>
+            <h1 className="fs-2">Materi 5</h1>
           </div>
         </div>
       </div>

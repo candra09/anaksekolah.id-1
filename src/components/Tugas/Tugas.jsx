@@ -16,7 +16,7 @@ export default function Matematika() {
         </div>
         <div className="row d-flex bg-blue">
           <div className="col-md-3 d-lg-inline-flex p-5">
-            <img src={mtk} alt="" className="w-75 mx-5" />
+            <img src={mtk} alt="" className="w-100" />
           </div>
           <div className="col-md-9 d-lg-inline-flex">
             <div className="mt-5 mx-5 text-white">
@@ -76,7 +76,9 @@ export default function Matematika() {
               helvetica, craft beer labore wes anderson cred nesciunt sapiente
               ea proident.
               <div className="col-md text-center">
-                <MDBBtn className="btn-success mx-2 rounded-pill">Submit</MDBBtn>
+                <MDBBtn className="btn-success mx-2 rounded-pill">
+                  Submit
+                </MDBBtn>
               </div>
             </MDBCollapse>
           </div>
@@ -93,10 +95,11 @@ export default function Matematika() {
               helvetica, craft beer labore wes anderson cred nesciunt sapiente
               ea proident.
               <div className="col-md text-center">
-                <MDBBtn className="btn-success mx-2 rounded-pill">Submit</MDBBtn>
+                <MDBBtn className="btn-success mx-2 rounded-pill">
+                  Submit
+                </MDBBtn>
               </div>
             </MDBCollapse>
-
           </div>
           <div className="col mt-5 px-5 py-3 bg-lblue border-25">
             <h1 className="display-3">Tugas 3</h1>
@@ -111,12 +114,14 @@ export default function Matematika() {
               helvetica, craft beer labore wes anderson cred nesciunt sapiente
               ea proident.
               <div className="col-md text-center">
-                <MDBBtn className="btn-success mx-2 rounded-pill">Submit</MDBBtn>
+                <MDBBtn className="btn-success mx-2 rounded-pill">
+                  Submit
+                </MDBBtn>
               </div>
             </MDBCollapse>
           </div>
           <div className="col mt-5 px-5 py-3 bg-lblue border-25">
-            <h1 className="display-3">Tugas 4</h1>
+            <h1 className="fs-2">Tugas 4</h1>
             <div className="col-md my-3">
               <MDBBtn tag="a" onClick={toggleShow}>
                 Deskripsi
@@ -128,7 +133,9 @@ export default function Matematika() {
               helvetica, craft beer labore wes anderson cred nesciunt sapiente
               ea proident.
               <div className="col-md text-center">
-                <MDBBtn className="btn-success mx-2 rounded-pill">Submit</MDBBtn>
+                <MDBBtn className="btn-success mx-2 rounded-pill">
+                  Submit
+                </MDBBtn>
               </div>
             </MDBCollapse>
           </div>
@@ -145,7 +152,9 @@ export default function Matematika() {
               helvetica, craft beer labore wes anderson cred nesciunt sapiente
               ea proident.
               <div className="col-md text-center">
-                <MDBBtn className="btn-success mx-2 rounded-pill">Submit</MDBBtn>
+                <MDBBtn className="btn-success mx-2 rounded-pill">
+                  Submit
+                </MDBBtn>
               </div>
             </MDBCollapse>
           </div>

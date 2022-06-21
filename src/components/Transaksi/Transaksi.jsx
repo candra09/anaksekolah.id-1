@@ -42,7 +42,7 @@ export default function Transaksi() {
               </div>
               <div className="col-sm-3 justify-content-md-end">
                 {" "}
-                <img src={mtk} alt="" className="w-100" />
+                <img src={mtk} alt="" className="w-100 icon" />
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function Transaksi() {
               </div>
               <div className="col-sm-3">
                 {" "}
-                <img src={fisika} alt="" className="w-100" />
+                <img src={fisika} alt="" className="w-100 icon" />
               </div>
             </div>
           </div>

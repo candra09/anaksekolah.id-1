@@ -10,7 +10,7 @@ export default function Latihan() {
         </div>
         <div className="row d-flex bg-blue">
           <div className="col-md-3 d-lg-inline-flex p-5">
-            <img src={mtk} alt="" className="w-75 mx-5" />
+            <img src={mtk} alt="" className="w-100" />
           </div>
           <div className="col-md-9 d-lg-inline-flex">
             <div className="mt-5 mx-5 text-white">

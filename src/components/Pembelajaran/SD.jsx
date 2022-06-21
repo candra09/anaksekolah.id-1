@@ -31,7 +31,7 @@ export default function SD() {
           </div>
           <div className="col-md">
             <a
-              href=""
+              href="/SD"
               className="btn btn-primary w-100 my-2 fs-4 rounded-pill fw-bold"
             >
               SMP
@@ -39,7 +39,7 @@ export default function SD() {
           </div>
           <div className="col-md">
             <a
-              href=""
+              href="/SD"
               className="btn btn-primary w-100 my-2 fs-4 rounded-pill fw-bold"
             >
               SMA
@@ -47,7 +47,7 @@ export default function SD() {
           </div>
           <div className="col-md">
             <a
-              href=""
+              href="/SD"
               className="btn btn-primary w-100 my-2 fs-4 rounded-pill fw-bold"
             >
               SMK
